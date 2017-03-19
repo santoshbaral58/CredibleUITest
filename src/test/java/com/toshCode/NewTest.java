@@ -136,6 +136,8 @@ public class NewTest {
 	  //Clicking on Agree and Find My Rates
 	  driver.findElement(By.xpath(".//*[@id='form-step']/div/div[2]/div/fieldset/div[9]/div[1]/div/div/button")).click();
 	  
+	  //Quitting the driver
+	  driver.quit();
 	  
   }
 }
